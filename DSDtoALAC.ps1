@@ -1,4 +1,4 @@
-$Working_Directory = Read-Host -Prompt "Enter the working directory: " 
+$Working_Directory = Read-Host -Prompt "Enter the working directory: " # Adding a prompt to the user
 $Output_Directory = Read-Host -Prompt "Enter the output directory: " 
 
 Set-Location $Working_Directory
